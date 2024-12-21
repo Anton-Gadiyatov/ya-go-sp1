@@ -28,7 +28,7 @@ func CalculateHandler(w http.ResponseWriter, r *http.Request) {
 	var reqBody RequestBody
 	err := json.NewDecoder(r.Body).Decode(&reqBody)
 	if err != nil {
-		sendErrorResponse(w, "Invalid request body", http.StatusBadRequest)
+		sendErrorResponse(w, "Expression is not valid", http.StatusBadRequest)
 		return
 	}
 
