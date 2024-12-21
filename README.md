@@ -57,23 +57,11 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/anton-gadiyatov/ya-go-sp1-calc.git
-cd ya-go-sp1-calc
+git clone https://github.com/Anton-Gadiyatov/ya-go-sp1.git
+cd ya-go-sp1
 ```
 
-### 2. Инициализация модуля Go
-
-```bash
-go mod init ya-go-sp1-calc
-```
-
-Затем установите зависимости:
-
-```bash
-go mod tidy
-```
-
-### 3. Запуск сервера
+### 2. Запуск сервера
 
 Для запуска сервера выполните команду:
 
